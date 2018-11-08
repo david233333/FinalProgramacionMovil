@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/formRegitro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:scaleType="matrix"
+        android:src="@drawable/unac" />
+    <TextView
+        android:id="@+id/textPermisos"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="2dp"
+        android:fontStyle="italic"
+        android:text="Permisos UNAC"
+        android:textColor="@color/BLANCO"
+        android:textSize="50dp"
+        ></TextView>
+
+    <Button
+        android:id="@+id/btn_formulario"
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/boton_login"
+        android:text="Diligenciar Formulario" />
+
+    <Button
+        android:layout_width="250dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/boton_login"
+        android:text="Estado de Permisos" />
+
+    <Button
+        android:id="@+id/cerrar_cesion"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="400dp"
+        android:background="@drawable/boton_login"
+        android:text="Cerrar Sesion" />
+
+</RelativeLayout>
